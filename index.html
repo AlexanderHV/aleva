@@ -5,83 +5,84 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
-      rel="stylesheet"
-    />
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap">
+    
     <link rel="stylesheet" href="style.css" />
-    <link
-      href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
-      rel="stylesheet"
-    />
+    <script src="https://kit.fontawesome.com/6116962029.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
     <main>
-      <nav class="navigation"></nav>
+      <nav class="navigation" id="home"></nav>
         <div class="menu">
-          <a href="#">Home</a>
-          <a href="#">Portfolio</a>
-          <a href="#">Skillsets</a>
-          <a href="#">Contact</a>
+          <a href="#home">Home</a> 
+          <a href="#portfolio">Portfolio</a>
+          <a href="#skillsets">Skillsets</a>
+          <a href="#contact">Contact</a>
         </div>
       </nav>
       <div class="container1">
-        <div class="logocontainer"><img src="/img/logo1.png" alt="Logo" /></div>
-        <div class="portraitcontainer"><img src="/img/portrait.png" alt=""></div>
+        <div class="split">
+          <div class="logocontainer"><img src="img/logo1.png" alt="Logo" /></div>
+          <div class="portraitcontainer"><img src="img/portrait.png" alt=""></div>
+        </div>
         <div class="textcontainer">
-          <div>Alexander Valentin</div>
-          <div>Your new content creater/developer</div>
+          <h1>Alexander Valentin<br>Your new content creater/developer</h1>
+          
         </div>
       </div>
-      <div class="divider"></div>
+      <div class="divider" id="portfolio"></div>
 
-      <h1>Portfolio</h1>
+      <h2>Portfolio</h2>
 
-      <section>
+    
         
          
-            <div class="split">
-              <div class="divb"><img src="img/delfin.png" alt=""> </div>
-              <div class="divb"><img src="img/fiskevideo.png" alt=""> </div>
-              
-            </div>
-            <div class="split">
-              <div class="divb"><img src="img/delfin.png" alt=""> </div>
-              <div class="divb"><img src="img/madapp.png" alt=""> </div>
-            </div>
-            <div class="split">
-              <div class="divb"><img src="/img/krabbequiz.png" alt=""> </div>
-              <div class="divb"><img src="/img/fiskevideo.png" alt=""> </div>
-            </div>
+      <div class="parent">
+       <a href="art.html" > <div style="background-image: url(img/art.png)" ></div> </a>
+       <a href="fisk.html" > <div style="background-image: url(img/fiskevideo.png)" class="div2"></div> </a> 
+       <a href="animate.html" > <div style="background-image: url(img/delfin.png)" class="div3"></div> </a>
+       <a href="foodapp.html" > <div style="background-image: url(img/madapp.png)" class="div4"></div> </a>
+       <a href="krabbequiz.html" > <div style="background-image: url(img/krabbequiz.png)" class="div5"></div> </a>
+       <a href="fotodag.html" > <div style="background-image: url(img/foto1.png)" class="div6"></div> </a>
+      </div>
         
       </section>
-      <div class="divider2"></div>
 
-      <h1>Experienced in</h1>
+      <div class="divider2" id="skillsets"></div>
+
+      <h2>Experienced in</h2>
 
       <section>
-        <div class="split">
+        <div class="split2">
           
-            <div class="div"><img class="div" src="/img/animate.png" alt=""> </div>
-            <div class="div"><img class="div" src="/img/ps.png" alt=""> </div>
-            <div class="div"><img class="div" src="/img/illu.png" alt=""> </div>
-            <div class="div"><img class="div" src="/img/ind.png" alt=""> </div>
-            <div class="div"><img class="div" src="/img/after.png" alt=""> </div>
-            <div class="div"><img class="div" src="/img/xd.png" alt=""> </div>
+            <img class="div" src="img/animate.png" alt=""> 
+            <img class="div" src="img/ps.png" alt=""> 
+            <img class="div" src="img/illu.png" alt=""> 
+            <img class="div" src="img/ind.png" alt=""> 
+            <img class="div" src="img/after.png" alt=""> 
+            <img class="div" src="img/xd.png" alt=""> 
           
         </div>
       </section>
       <div class="divider3"></div>
 
-      <h1>Contact</h1>
+      <h2>Contact</h2>
 
-      <div class="contact">
-        <p>
-          Nixtys@live.dk
-          <br />
-          22635772
-        </p>
-        <div class="divider4"></div>
+
+        <div class="contact">
+        
+          <p>
+            <i class="fa-solid fa-envelope"></i> Nixtys@live.dk
+            <br/>
+            <i class="fa-solid fa-phone"></i> 22635772
+          </p>
+          <div class="divider4" id="contact"></div>
+        </div>
       </div>
+      <div class="footer">
+      <footer><i class="fa-solid fa-copyright"></i> 2022 - Alexander Holst Valentin</footer>
+    </div>
     </main>
   </body>
 </html>
